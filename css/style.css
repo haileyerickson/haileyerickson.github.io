@@ -29,14 +29,18 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
     font-family: Montserrat;
+    color: #F34452;
 }
 
 h2 {
     font-size: 50px;
-    line-height: 26px;
+    line-height: 10px;
     margin-top: 0;
     margin-bottom: 0;
     font-family: Droid Serif;
+    text-transform: capitalize !important;
+    letter-spacing: 10px;
+    color: #ccc;
 }
 
 h3 {
