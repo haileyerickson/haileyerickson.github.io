@@ -17,19 +17,19 @@ img {
 }
 
 /* texts */
-/*h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333;
 }
-*/
+
 h1 {
     font-size: 20px;
     line-height: 60px;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Montserrat;
-    color: #F34452;
+    font-family: Montserrat !important;
+    color: #F34452 !important;
 }
 
 h2 {
@@ -37,10 +37,10 @@ h2 {
     line-height: 10px;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Droid Serif;
+    font-family: Droid Serif !important;
     text-transform: capitalize !important;
-    letter-spacing: 10px;
-    color: #ccc;
+    letter-spacing: 10px !important;
+    color: #ccc !important;
 }
 
 h3 {
