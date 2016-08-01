@@ -699,6 +699,7 @@ ul.info-list li strong {
     -ms-transform: rotate(34deg);
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg);
+    padding: 550px 0 0 270px;
 }
 
 /* Portfolio */
