@@ -317,6 +317,7 @@ h2.menu-item:hover:after {
     border: 1px solid rgba(0,0,0,0.1);
     display: table;
     transition: all 0.5s;
+    padding-left: 50px;
 }
 
 .name-block.reverse {
