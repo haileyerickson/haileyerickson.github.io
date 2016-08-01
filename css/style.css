@@ -408,14 +408,14 @@ h2.menu-item:hover:after {
     position: absolute;
     width: 330px;
     height: 200px;
-    border: 1px solid rgba(0,0,0,0.0);
+    border: 0px solid rgba(0,0,0,0.1);
     display: table;
 }
 
 .about-block-container {
     display: table-cell;
     vertical-align: middle;
-    padding: 300px 0 0 90px;
+    padding: 500px 0 0 290px;
     -ms-transform: rotate(34deg);
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg);
