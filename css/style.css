@@ -406,8 +406,8 @@ h2.menu-item:hover:after {
 ------------------------- */
 .about-block {
     position: absolute;
-    width: 430px;
-    height: 300px;
+    width: 330px;
+    height: 200px;
     border: 1px solid rgba(0,0,0,0.1);
     display: table;
 }
