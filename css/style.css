@@ -415,7 +415,7 @@ h2.menu-item:hover:after {
 .about-block-container {
     display: table-cell;
     vertical-align: middle;
-    padding: 350px 0 0 70px;
+    padding: 350px 0 0 100px;
     -ms-transform: rotate(34deg);
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg);
