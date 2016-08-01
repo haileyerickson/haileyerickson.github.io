@@ -1223,6 +1223,7 @@ ul.info-list li strong {
     -ms-transform: rotate(34deg);
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg);
+    padding: 750px 0 0 0px;
 }
 
 .contact-content {
