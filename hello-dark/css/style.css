@@ -404,7 +404,7 @@ h2.menu-item:hover:after {
 .social {
     position: absolute;
     bottom: 25%;
-    left: 20%;
+    left: -20%;
 }
 
 .social li {
