@@ -499,7 +499,7 @@ ul.info-list li strong {
 .progress-bar-label {
     font-family: 'Helvetica';
     margin-bottom: 10px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 5px;
 }
 
