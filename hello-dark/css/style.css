@@ -75,9 +75,8 @@ h3 {
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
-    letter-spacing: 5px;
     font-family: 'Madina Script';
+    text-transform: lowercase;
 }
 
 h4 {
