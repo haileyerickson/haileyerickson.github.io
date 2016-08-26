@@ -1365,9 +1365,9 @@ ul.info-list li strong {
 
 .inline-menu li.active {
     text-decoration: none;
-    font-family: 'Madina Script';
+    font-family: 'Helvetica';
     font-size: 10px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     cursor: text;
 }
 #project-modal,
