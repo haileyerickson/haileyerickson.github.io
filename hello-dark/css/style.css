@@ -279,7 +279,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: #333;
+    background: #eee;
     background-size: cover;
 }
 
