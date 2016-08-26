@@ -1366,7 +1366,7 @@ ul.info-list li strong {
 .inline-menu li.active {
     text-decoration: none;
     font-family: 'Madina Script';
-    color: #7b72e9;
+    font-size: 18px;
     cursor: text;
 }
 #project-modal,
