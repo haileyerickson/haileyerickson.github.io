@@ -1400,12 +1400,10 @@ ul.info-list li strong {
 }
 
 .block-title {
-    text-transform: uppercase;
-    color: #333;
+    color: #555;
     padding-bottom: 10px;
     border-bottom: 1px dashed #ddd;
 	margin-bottom: 50px;
-    font-weight: 700;
 }
 
 
