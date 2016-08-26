@@ -442,6 +442,8 @@ h2.menu-item:hover:after {
     height: 300px;
     border: 0px solid rgba(255,255,255,0.4);
     display: table;
+    padding-top: 475px;
+    padding-left: 350px;
 }
 
 .about-block-container {
