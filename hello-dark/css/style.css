@@ -306,11 +306,11 @@ h2.menu-item:before {
 }
 
 h2.about.menu-item:before {
-    content: '01';
+    content: '02';
 }
 
 h2.portfolio.menu-item:before {
-    content: '02';
+    content: '01';
 }
 
 h2.blog.menu-item:before {
