@@ -306,19 +306,19 @@ h2.menu-item:before {
 }
 
 h2.about.menu-item:before {
-    content: '02';
+    content: '';
 }
 
 h2.portfolio.menu-item:before {
-    content: '01';
+    content: '';
 }
 
 h2.blog.menu-item:before {
-    content: '03';
+    content: '';
 }
 
 h2.contact.menu-item:before {
-    content: '03';
+    content: '';
 }
 
 h2.menu-item:after {
