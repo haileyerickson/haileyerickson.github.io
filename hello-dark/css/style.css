@@ -123,15 +123,15 @@ strong, small {
     transition: all .3s;
     position: relative;
     color: #FFF;
-    background-color: #F34452;
+    background-color: #7b72e9;
     z-index: 20;
     overflow: hidden;
 }
 
 .btn:hover {
-    color: #F34452;
+    color: #7b72e9;
     background-color: #FFF;
-    border: 2px solid #F34452;
+    border: 2px solid #7b72e9;
 }
 .btn:focus {
     color: #FFF;
@@ -147,7 +147,7 @@ strong, small {
 .btn-download:hover {
     border: none;
     color: #FFF;
-    background-color: #F34452;
+    background-color: #7b72e9;
 }
 
 .btn-download:before {
@@ -333,7 +333,7 @@ h2.menu-item:after {
 }
 
 h2.menu-item:hover:after {
-    background: #F34452;
+    background: #7b72e9;
 }
 
 
@@ -428,8 +428,8 @@ h2.menu-item:hover:after {
 }
 
 .social a:hover {
-    border: 2px solid #F34452;
-    color: #F34452;
+    border: 2px solid #7b72e9;
+    color: #7b72e9;
 }
 
 
@@ -477,7 +477,7 @@ ul.info-list li strong {
 
 .progress-bar {
     line-height: 8px;
-    background-color: #F34452;
+    background-color: #7b72e9;
     box-shadow: none;
     position: relative;
 }
@@ -517,7 +517,7 @@ ul.info-list li strong {
     content: '\f00c';
     font-family: 'FontAwesome';
     left: 20px;
-    color: #F34452;
+    color: #7b72e9;
 }
 
 .timeline {
@@ -572,7 +572,7 @@ ul.info-list li strong {
 }
 
 .exp:after {
-    background: #F34452;
+    background: #7b72e9;
     border: 3px solid #ffffff;
     content: "";
     height: 15px;
@@ -613,7 +613,7 @@ ul.info-list li strong {
 
 .exp .hgroup h5 span.current {
     color: #ffffff;
-    background: #F34452;
+    background: #7b72e9;
     padding: 1px 12px;
 }
 
@@ -630,7 +630,7 @@ ul.info-list li strong {
 .service-icon {
     font-size: 30px;
     margin-bottom: 10px;
-    color: #F34452;
+    color: #7b72e9;
 }
 
 .awards img {
@@ -667,7 +667,7 @@ ul.info-list li strong {
 }
 
 .testimonials li:hover img {
-    border: 10px solid #F34452;
+    border: 10px solid #7b72e9;
 }
 
 .testimonials li blockquote {
@@ -991,8 +991,8 @@ ul.info-list li strong {
 }
 
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-    background-color: #F34452;
-    border-color: #F34452;
+    background-color: #7b72e9;
+    border-color: #7b72e9;
     color: #fff;
 }
 
@@ -1087,8 +1087,8 @@ ul.info-list li strong {
 }
 
 #blog-social > li > a:hover {
-    color: #F34452;
-	border: 1px solid #F34452;
+    color: #7b72e9;
+	border: 1px solid #7b72e9;
 }
 
 #comments {
@@ -1207,7 +1207,7 @@ ul.info-list li strong {
 
 .comment-respond input.form-control:focus,
 .comment-respond textarea.form-control:focus {
-    border: 1px solid #F34452;
+    border: 1px solid #7b72e9;
 }
 
 .form-double:before,
@@ -1270,7 +1270,7 @@ ul.info-list li strong {
     vertical-align: top;
     font-size: 30px;
     text-align: center;
-    color: #F34452;
+    color: #7b72e9;
 }
 
 .contact-details, .contact-icon {
@@ -1315,7 +1315,7 @@ ul.info-list li strong {
 #formcontactus .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-bottom: 1px solid #F34452;
+    border-bottom: 1px solid #7b72e9;
 }
 
 #formcontactus textarea {
