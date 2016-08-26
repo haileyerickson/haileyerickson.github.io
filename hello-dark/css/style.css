@@ -1367,6 +1367,7 @@ ul.info-list li strong {
     text-decoration: none;
     font-family: 'Madina Script';
     font-size: 18px;
+    text-transform: lowercase;
     cursor: text;
 }
 #project-modal,
