@@ -279,7 +279,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: #6d6e70;
+    background: #fff;
     background-size: cover;
 }
 
@@ -292,7 +292,7 @@ strong, small {
 
 h2.menu-item {
     position: relative;
-    color: #FFF;
+    color: #555;
     cursor: pointer;
     margin: 50px;
     font-size: 28px;
