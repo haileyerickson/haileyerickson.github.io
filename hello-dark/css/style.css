@@ -279,7 +279,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: url(images/portfolio/bg.gif);
+    background-image: url("images/portfolio/bg.gif");
     background-size: cover;
 }
 
