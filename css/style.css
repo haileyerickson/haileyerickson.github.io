@@ -31,7 +31,7 @@ li a:hover {
     text-decoration: none;
 }
 h1 {
-  font-family: "Madina Script", Arial !important;
+  font-family: "Madina_Script", Arial !important;
   font-size: 100px !important;
   color: #333;
   text-shadow: 0px 1px 10px #fff;
@@ -46,7 +46,7 @@ h2 {
   padding-top: 50px;
 }
 h3 {
-  font-family: "Madina Script", Arial;
+  font-family: "Madina_Script", Arial;
   font-size: 40px;
   color: #444;
   top: 0;
@@ -73,7 +73,7 @@ h5 {
 }
 
 h6 {
-  font-family: "Madina Script", Arial !important;
+  font-family: "Madina_Script", Arial !important;
   font-size: 45px !important;
   color: #444 !important;
   text-shadow: 0px 1px 10px #fff;
@@ -144,7 +144,7 @@ a:hover {
   padding-bottom: 10px;
   border-bottom: 1px dashed #ddd;
 	margin-bottom: 20px;
-  font-family: "Madina Script", Arial;
+  font-family: "Madina_Script", Arial;
   font-size: 60px;
   text-align: center;
 }
@@ -391,12 +391,12 @@ a:hover {
     position:fixed;
     bottom:10%;
     right: 0px;
-    font-family:'Madina Script';
+    font-family:'Madina_Script';
     font-size: 30px
 }
 .home-link {
   float: left;
-  font-family: "Madina Script", Arial !important;
+  font-family: "Madina_Script", Arial !important;
   font-size: 45px !important;
   color: #444 !important;
   text-shadow: 0px 1px 10px #fff;
