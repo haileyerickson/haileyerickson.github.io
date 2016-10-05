@@ -1,0 +1,433 @@
+button {
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 50px 20px 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+  font-family: "Helvetica";
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ccc;
+  float: right;
+  text-decoration: none !important;
+}
+
+li a {
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 16px;
+}
+
+li a:hover {
+    color: #226572;
+    text-decoration: none;
+}
+h1 {
+  font-family: "Madina Script", Arial !important;
+  font-size: 100px !important;
+  color: #333;
+  text-shadow: 0px 1px 10px #fff;
+}
+h2 {
+  font-family: "Georgia", Arial;
+  font-size: 12px !important;
+  color: #777;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 10px #fff;
+  padding-top: 50px;
+}
+h3 {
+  font-family: "Madina Script", Arial;
+  font-size: 40px;
+  color: #444;
+  top: 0;
+  left: 0;
+}
+h4 {
+  font-family: 'Helvetica';
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #226572 !important;
+}
+h5 {
+  font-family: 'Helvetica';
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #444;
+
+}
+
+h6 {
+  font-family: "Madina Script", Arial !important;
+  font-size: 45px !important;
+  color: #444 !important;
+  text-shadow: 0px 1px 10px #fff;
+  padding-left: 70px;
+  padding-top: 30px;
+
+}
+
+p {
+  font-family: "Raleway", Arial;
+  font-size: 14px;
+  color: #444;
+  letter-spacing: 1px;
+}
+a {
+    text-decoration: none !important;
+    color: #444 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #226572 !important;
+}
+
+.vertImg {
+  width: 300px;
+  float: left;
+}
+.horizImg {
+  width: 600px;
+  float: left;
+}
+.portfolio-images {
+  margin: 0px !important;
+}
+.pic {
+  z-index: 1;
+  position: relative;
+}
+.images {
+  max-width: 600px;
+  padding-bottom: 90px;
+}
+.pad {
+  padding-top: 40px;
+}
+.name {
+  z-index: 2;
+  position: relative;
+}
+.imgMug {
+  max-width: 600px;
+}
+.imgMe {
+  max-width: 350px !important;
+  position: relative;
+  z-index: 1;
+}
+.block-content {
+    margin: 0 0 100px;
+}
+
+.block-content:last-child {
+    margin: 0 0 0;
+}
+.block-title {
+  color: #444;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ddd;
+	margin-bottom: 20px;
+  font-family: "Madina Script", Arial;
+  font-size: 60px;
+  text-align: center;
+}
+.progress {
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
+}
+
+.progress-bar {
+    line-height: 8px;
+    background-color: #226572;
+    box-shadow: none;
+    position: relative;
+}
+
+.progress-bar span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    font-weight: 400;
+    position: absolute;
+    top: -16px;
+    right: -20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.3);
+}
+
+.progress-bar-label {
+    font-family: 'Helvetica';
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.progress-bar-label span {
+    font-weight: 400;
+}
+.icon-list li {
+    padding-left: 25px;
+}
+
+.icon-list li:before {
+    position: absolute;
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    left: 20px;
+    color: #444;
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline:before {
+    background: #ddd;
+    background: -moz-linear-gradient(top,  #ddd 1%, #ddd 75%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ddd), color-stop(75%,#ddd), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top,  #ddd 1%,#ddd 75%,#ffffff 100%);
+    background: -o-linear-gradient(top,  #ddd 1%,#ddd 75%,#ffffff 100%);
+    background: -ms-linear-gradient(top,  #ddd 1%,#ddd 75%,#ffffff 100%);
+    background: linear-gradient(to bottom,  #ddd 1%,#ddd 75%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddd', endColorstr='#ffffff',GradientType=0 );
+    bottom: 0;
+    content: "";
+    left: 18px;
+    position: absolute;
+    top: 50px;
+    width: 1px;
+    height: 100%;
+}
+
+.timeline:after {
+    border: 1px solid #ddd;
+    font-family: 'FontAwesome';
+    top: 0;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.timeline.experience:after {
+    content: '\f0b1';
+}
+.exp {
+    padding-left: 50px;
+    padding-top: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.exp:after {
+    background: #444;
+    border: 3px solid #ffffff;
+    content: "";
+    height: 15px;
+    left: 12px;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    width: 15px;
+}
+
+.exp-holder {
+    margin-top: 70px;
+}
+
+.exp .hgroup h4, .exp .hgroup h5 {
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+.exp .hgroup {
+    margin-bottom: 5px;
+}
+
+.exp .hgroup h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    padding-left: 20px;
+}
+
+.exp .hgroup h5:before {
+    position: absolute;
+    left: 50px;
+    content: '\f073';
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.exp .hgroup h5 span.current {
+    color: #ffffff;
+    background: #444;
+    padding: 1px 12px;
+}
+
+.service {
+    text-align: center;
+    margin: 0px 0;
+}
+
+.service h4 {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.service-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #444;
+}
+.testimonials li {
+    position: relative;
+    border-bottom: 1px solid #F1F3F6;
+}
+
+
+.testimonials li:last-child {
+    border-bottom: none;
+    font-family: "Raleway", Arial !important;
+    font-size: 16px !important;
+    color: #444 !important;
+    letter-spacing: 0px !important;
+}
+
+.testimonials li img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+
+.testimonials li blockquote {
+    width: 80%;
+    border-left: none;
+    padding: 20px 40px;
+    color: #333;
+}
+
+.testimonials li:before {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    content: '\f10d';
+    font-family: 'FontAwesome';
+    font-size: 30px;
+    color: #F1F3F6;
+    z-index: 0;
+}
+
+
+.testimonials li .quote {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.testimonials li .quote span {
+    font-family: "Helvetica", Arial !important;
+    font-size: 14px !important;
+    color: #444 !important;
+}
+
+.btn-email {
+    position: relative;
+}
+
+.btn-email:before {
+    position: absolute;
+    left: 0;
+    top: 45px;
+    content: '';
+    border-top: 1px solid #F1F3F6;
+    width: 100%;
+}
+.skills {
+  max-width: 80px;
+  padding-bottom: 20px;
+}
+.header-cont {
+    width:30%;
+    position:fixed;
+    top:0px;
+}
+.footer-cont {
+    width:50%;
+    position:fixed;
+    bottom:10%;
+    right: 0px;
+    font-family:'Madina Script';
+    font-size: 30px
+}
+.home-link {
+  float: left;
+  font-family: "Madina Script", Arial !important;
+  font-size: 45px !important;
+  color: #444 !important;
+  text-shadow: 0px 1px 10px #fff;
+  padding-left: 70px;
+}
+
+.fixed {
+    position: static;
+    top: 100px;
+    left: 100px;
+    color: #226572;
+    width: 30%
+}
+
+.img-shadow {
+  box-shadow: 0px 5px 10px 5px #ccc;
+}
+
+#name {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 30%;
+  z-index: 98;
+}
+#social_side_links {
+	position: fixed;
+  top: 300px;
+  left: 120px;
+  padding: 0;
+  list-style: none;
+  z-index: 99;
+  color: #226572;
+}

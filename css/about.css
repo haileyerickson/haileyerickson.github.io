@@ -1,0 +1,215 @@
+/*html, body {
+    margin: 0;
+    padding: 0;
+}
+div {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+*/
+button {
+  text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 20px 50px 20px 20px;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    bottom: 0;
+}
+li {
+  font-family: "Helvetica";
+  letter-spacing: 8px;
+  text-transform: uppercase;;
+  font-size: 14px;
+  color: #ccc;
+  float: right;
+
+}
+
+li a {
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #226572;
+}
+h1 {
+  font-family: "Madina Script", Arial;
+  font-size: 72px !important;
+  color: #167b84;
+  margin-bottom: 0px;
+  text-shadow: 0px 1px 10px #fff;
+}
+h2 {
+  font-family: "Helvetica", Arial;
+  font-size: 18px !important;
+  color: #444;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 10px #fff;
+}
+h3 {
+  font-family: "Madina Script", Arial;
+  font-size: 60px;
+  color: #226572;
+  text-align: center;
+}
+h4 {
+  font-family: "Georgia", serif;
+  font-size: 48px !important;
+  color: #444;
+}
+img {
+  max-width: 600px;
+}
+p {
+    font-family: "Georgia", Helvetica, Sans-Serif;
+    font-size: 10pt;
+    color: #000000
+}
+
+p.introduction:first-letter {
+ font-size: 44px;
+ float: left;
+color: #D4D4C7;
+ line-height: 35px;
+ padding-top: 3px;
+ padding-right: 3px;
+ font-family: "Helvetica", serif, Georgia;
+}
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+.name {
+  float:left;
+}
+
+.title {
+  float: right;
+}
+.move {
+  margin-right: 100px;
+}
+.pinterest {
+  position: fixed;
+    bottom: 0;
+    right: 20%;
+}
+.vertImg {
+  width: 300px;
+  float: left;
+}
+.horizImg {
+  width: 600px;
+  float: left;
+}
+.portfolio-images {
+  margin: 0px !important;
+}
+  .btn {
+    border: 2px solid transparent;
+    border-radius: 0;
+    padding: 12px 28px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Helvetica';
+    letter-spacing: 3px;
+    transition: all .3s;
+    position: relative;
+    color: #FFF;
+    background-color: #226572;
+    z-index: 20;
+    overflow: hidden;
+}
+
+.btn:hover {
+    color: #105860;
+    background-color: #FFF;
+    border: 2px solid #F34452;
+}
+.btn:focus {
+    color: #FFF;
+	outline: none;
+}
+
+.btn-download {
+    border: none;
+    font-size: 16px;
+    padding: 16px 55px 16px 25px;
+}
+
+.btn-download:hover {
+    border: none;
+    color: #FFF;
+    background-color: #105860;
+}
+.btn-download:before {
+    position: absolute;
+    content: '\f019';
+    font-family: 'FontAwesome';
+    top: 16px;
+    right: 20px;
+    font-size: 16px;
+}
+
+.btn-download:hover:before {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: fadeOutDown;
+    animation-name: fadeOutDown;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+}
+
+.btn-download:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    transition: all .3s;
+}
+
+.btn-download:hover:after {
+    width: 50px;
+    height: 70px;
+    right: -5px;
+    top: -5px;
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+.about {
+  position: relative;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        width: 100%;
+        height: auto;
+        border: none;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        display: table;
+        left: 0;
+        top: 0;
+}
