@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Madina Script;
+    src: url('../fonts/MadinaScript.ttf');
+}
 
 button {
   text-decoration: none;
