@@ -275,7 +275,7 @@ h4 {
 }
 .quote {
   font-family: 'Expletus Sans', cursive;
-  font-size: 18px;
+  font-size: 24px !important;
 }
 .green {
   color: #625e43 !important;
