@@ -275,6 +275,7 @@ h4 {
 }
 .quote {
   font-family: 'Expletus Sans', cursive;
+  font-size: 18px;
 }
 .green {
   color: #625e43 !important;
@@ -2174,6 +2175,7 @@ form label {
 }
 .exp-title {
   text-align: center;
+  font-family: "Megrim";
   font-size: 40px;
 }
 .resume-sum{
