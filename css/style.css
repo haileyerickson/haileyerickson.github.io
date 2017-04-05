@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #625e43 !important;
+  color: #fff !important;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -258,7 +258,7 @@ h4 {
   font-size: 50px !important;
   text-transform: uppercase;
   letter-spacing: 10px;
-  border-bottom: 2px solid #625e43;
+  border-bottom: 2px solid #fff;
 }
 .nametwo{
   font-family: 'Megrim', cursive;
