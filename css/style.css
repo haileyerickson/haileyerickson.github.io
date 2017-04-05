@@ -72,12 +72,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 h3 {
-  font-family: 'Megrim', cursive;
+  font-family: 'Expletus Sans', cursive;
   font-size: 14px;
 }
 
 h4 {
-  font-family: 'Expletus Sans', cursive;
+  font-family: 'Megrim', cursive;
 }
 .skills {
   max-width: 80px;
