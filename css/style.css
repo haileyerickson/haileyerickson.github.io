@@ -19,6 +19,14 @@ body {
   background: #fff;
 }
 
+#header-image {
+  background-image: url("http://haileyerickson.github.io/images/hailey-erickson-designer-developer.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -253,11 +261,9 @@ h4 {
   color: #000 !important;
 }
 .name {
-  font-family: 'Megrim', cursive;
+  font-family: 'Madina Script', cursive;
   color: #625e43 !important;
-  font-size: 50px !important;
-  text-transform: uppercase;
-  letter-spacing: 10px;
+  font-size: 80px !important;
   border-bottom: 2px solid #fff;
 }
 .nametwo{
