@@ -19,14 +19,6 @@ body {
   background: #fff;
 }
 
-#header-image {
-  background-image: url("http://haileyerickson.github.io/images/hailey-erickson-header-image.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-clip: border-box;
-}
-
 #page {
   position: relative;
   overflow-x: hidden;
@@ -74,9 +66,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #625e43 !important;
   margin: 0 0 20px 0;
-  text-transform: lowercase;
 }
 
 h3 {
@@ -336,28 +326,42 @@ h4 {
 #head h1, #head h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #ffffff;
 }
 #head h1 {
   margin-bottom: 0px;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 1.5;
   font-weight: 300;
-  font-family: "Kaushan Script", cursive !important;
+  font-family: "Madina Script", cursive !important;
+  padding-top: 300px;
+  padding-left: 30px;
 }
 @media screen and (max-width: 768px) {
   #head h1 {
-    font-size: 34px;
+    font-size: 60px;
     line-height: 1.2;
-    margin-bottom: 10px;
+    padding-top: 30px;
+    margin-bottom: 15px
   }
 }
 #head h2 {
-  font-weight: 300;
-  font-size: 22px;
+  font-family: "Montserrat";
+  font-size: 40px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  #head h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    padding-top: 0px;
+  }
+}
+
 #head .form-wrap {
   border-top: 10px solid #625e43;
   position: relative;
