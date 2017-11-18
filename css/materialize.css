@@ -4764,8 +4764,10 @@ small {
   display: -ms-flexbox;
   display: flex;
 }
+
 .example-img {
-  width: 320px !important;
+  width: 960px !important;
+  box-shadow: 0 5px 10px 0 #555555;
 }
 .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
   height: 100%;
@@ -8229,7 +8231,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
 }
 
-.carousel .carousel-item > img {
+.carousel .carousel-item > `img` {
   width: 100%;
 }
 
