@@ -1,15 +1,61 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
 }
-/* =======================================================
-*
-* 	Template Style
-*
-* ======================================================= */
+
+.mySlides {
+    display: none;
+}
+
+
+.text {
+  color: #333333;
+  font-size: 15px;
+  padding: 30px 12px 0px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 body {
   font-family: "Lato", Arial, sans-serif;
   font-weight: 400;
@@ -72,10 +118,22 @@ h1, h2, h3, h4, h5, h6, figure {
 h3 {
   font-family: 'Expletus Sans', cursive;
   font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  z-index: 2;
 }
 
 h4 {
-  font-family: 'Megrim', cursive;
+  font-family: 'Madina Script', cursive;
+  font-size: 60px;
+  z-index: 1;
+  color: #cccccc;
+
+}
+
+h5 {
+  font-family: 'Playfair Display';
+  font-size: 18px;
 }
 .skills {
   max-width: 80px;
@@ -720,7 +778,7 @@ form label {
 }
 
 .white-font {
-  color: #f4f4f4 !important;
+  color: #000000 !important;
 }
 
 #head .cover-quote,
