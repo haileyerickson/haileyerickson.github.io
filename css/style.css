@@ -116,8 +116,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 h3 {
-  font-family: 'Expletus Sans', cursive;
-  font-size: 14px;
+  font-family: 'Montserrat', Helvetica;
+  font-size: 10px;
   letter-spacing: 3px;
   text-transform: uppercase;
   z-index: 2;
@@ -778,7 +778,7 @@ form label {
 }
 
 .white-font {
-  color: #000000 !important;
+  color: #000 !important;
 }
 
 #head .cover-quote,
