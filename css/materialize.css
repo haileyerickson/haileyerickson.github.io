@@ -4764,7 +4764,9 @@ small {
   display: -ms-flexbox;
   display: flex;
 }
-
+.example-img {
+  width: 320px !important;
+}
 .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
   height: 100%;
   max-height: none;
