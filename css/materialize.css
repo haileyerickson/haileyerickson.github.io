@@ -4765,15 +4765,16 @@ small {
   display: flex;
 }
 
-.example-img {
-  width: 960px !important;
+.website-img {
+  width: 375px !important;
   box-shadow: 0 5px 10px 0 #555555;
 }
+
 .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
   height: 100%;
   max-height: none;
   overflow: visible;
-}
+}``
 
 .card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
   height: 100%;
